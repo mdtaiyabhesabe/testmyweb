@@ -1,0 +1,45 @@
+{
+    "name": "engangelo/testmyweb",
+    "type": "project",
+    "description": "The Laravel Framework.",
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:hesabe-tech-team/payment-commission-package.git"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "laravel/framework": "^9.17",
+        "php": "^8.0",
+        "amamarul/integer-hashids": "^1.0",
+        "bugsnag/bugsnag-laravel": "^2.24",
+        "doctrine/dbal": "^3.3",
+        "doctrine/inflector": "^2.0",
+        "fideloper/proxy": "^4.4",
+        "laravel-lang/lang": "^10.9",
+        "laravel/passport": "^10.4",
+        "laravel/telescope": "^4.9",
+        "laravel/tinker": "^2.7",
+        "lcobucci/jwt": "^4.1",
+        "league/flysystem-aws-s3-v3": "^3.0",
+        "phpoffice/phpspreadsheet": "^1.23",
+        "maatwebsite/excel": "^3.1",
+        "predis/predis": "^2.0",
+        "spatie/laravel-searchable": "^1.11",
+        "vinkla/hashids": "^10.0",
+        "ext-json": "*",
+        "hesabe/payment-commission": "^1.0",
+        "illuminate/support": "^9.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "Engangelo\\Testmyweb\\": "src/"
+        }
+    },
+    "minimum-stability": "RC"
+}
